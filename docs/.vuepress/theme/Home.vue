@@ -16,7 +16,7 @@
       <DemoForm />
 
       <p class="description">
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+        Guide
       </p>
 
       <p

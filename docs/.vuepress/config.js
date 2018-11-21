@@ -1,4 +1,11 @@
 module.exports = {
-    title: 'Convenient-API',
-    description: 'Convenient-API guide'
-}
+    title: 'Convenient API',
+    themeConfig: {
+        displayAllHeaders: true,
+        sidebar: [
+            '/',
+            '/guide/',
+            '/guide/deploy'
+        ]
+    }
+};
