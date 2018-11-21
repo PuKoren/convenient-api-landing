@@ -28,6 +28,13 @@
           :item="actionLink"
         />
       </p>
+
+      <p class="description">
+        Pricing
+      </p>
+
+      <PricingSection />
+
     </div>
 
     <div
@@ -43,8 +50,6 @@
         <p>{{ feature.details }}</p>
       </div>
     </div>
-
-    <Content custom/>
 
     <div
       class="footer"
