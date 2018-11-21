@@ -5,6 +5,7 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "vuepress": "^0.14.8"
   }
 }

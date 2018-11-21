@@ -10,6 +10,12 @@
       <h1>{{ data.heroText || $title || 'Hello' }}</h1>
 
       <p class="description">
+        Fill some fields and and let the magic happen
+      </p>
+
+      <DemoForm />
+
+      <p class="description">
         {{ data.tagline || $description || 'Welcome to your VuePress site' }}
       </p>
 
