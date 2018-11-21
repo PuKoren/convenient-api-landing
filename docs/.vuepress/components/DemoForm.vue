@@ -27,6 +27,7 @@
                 </option>
             </select>
         </label>
+        <app-loader v-show="pending" />
     </form>
 </template>
 
@@ -48,7 +49,7 @@ export default {
                 birthyear: '',
                 sex: ''
             },
-            pending: true
+            pending: false
         }
     },
     mounted() {
