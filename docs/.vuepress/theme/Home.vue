@@ -91,12 +91,13 @@ export default {
   .hero
     text-align center
     img
-      max-height 280px
+      height 120px
       display block
-      margin 3rem auto 1.5rem
+      margin 3rem auto 0
     h1
       font-size 3rem
-    h1, .description, .action
+      margin: auto
+    .description, .action
       margin 1.8rem auto
     .description
       max-width 35rem
