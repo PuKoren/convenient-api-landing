@@ -27,6 +27,10 @@
                 </option>
             </select>
         </label>
+        <label>
+            <span>Birth year</span>
+            <input type="text" v-model="form.birthyear" />
+        </label>
         <app-loader v-show="pending" />
     </form>
 </template>
@@ -53,7 +57,7 @@ export default {
         }
     },
     mounted() {
-        this.fillEmail('bernard.dupond@gmail.com');
+        this.fillEmail('jonathan.muller@gmail.com');
     },
     methods: {
         fillEmail(email) {
